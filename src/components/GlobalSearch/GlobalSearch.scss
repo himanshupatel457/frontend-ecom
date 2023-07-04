@@ -1,0 +1,44 @@
+.global-search {
+    display: flex;
+    align-items: center;
+}
+
+.global-search .search-input {
+    width: 60rem;
+    margin-right: 10px;
+    background-color: #383838;
+    border-radius: 8px;
+    height: min-content;
+}
+
+.global-search .search-input .MuiInputLabel-root,
+.global-search .search-input .MuiInputBase-root {
+    color: white;
+}
+
+.global-search .search-input .MuiOutlinedInput-notchedOutline {
+    border-color: white;
+}
+
+.global-search .search-input .MuiOutlinedInput-input::placeholder {
+    color: white;
+}
+
+.global-search .search-input .MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(214, 153, 153);
+}
+
+.global-search .search-input .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: rgb(148, 133, 133);
+}
+
+.global-search .search-button {
+    background-color: #383838;
+    color: aliceblue;
+    transition: background-color 0.3s ease;
+}
+
+.global-search .search-button:hover {
+    background-color: #bcf6f8;
+    color: rgb(12, 11, 11);
+}
